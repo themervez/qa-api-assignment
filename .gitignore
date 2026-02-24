@@ -1,0 +1,49 @@
+# Virtual environments
+.env/
+env/
+venv/
+ENV/
+.venv/
+.tox/
+
+# Test outputs
+test_results/
+test_reports/
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+allure-results/
+pytest-results.xml
+pytest-report.html
+
+# Performance test results
+locust_reports/
+performance_results/
+
+# IDE and environment
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+*.out
+*.err
